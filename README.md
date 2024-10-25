@@ -17,7 +17,7 @@
 較符合一般人操作習慣的網頁(個人是命名 UlaniX 啦XD)也在開發中…如下圖XD   
 ![圖片](https://github.com/user-attachments/assets/8edef350-a3ff-41cd-a2c9-c73d6b6af468)
    
-不過…因為個種理由…小弟其實沒有太多時間&動力寫 UlaniX 了0rz...   
+不過…因為各種理由…小弟其實沒有太多時間&動力寫 UlaniX 了0rz...   
 想寫的東西其實不少，現在我的 ULANI 可以抓天氣&隨機挑照片我就很開心了…   
    
 所以，我想 UlaniX 應該之後會石沉大海吧…   
@@ -35,14 +35,14 @@
  * 你要具備 Node.js 基礎: 這個專案只有 Node.js 函式庫，沒有任何 GUI 介面
 
 ## 開始安裝
-
  * git clone 這個專案，先複製一份 ```/src/config.sample.js``` 到 ```/src/config.js``` 
  * 更改 ```/src/config.js``` 裡的 config，最重要的應該是第七行的
  ```
         bluetooth_name: 'ULANI CalendarC0FFEE',     //藍牙裝置名稱
  ```
  要改成你自己的 ULANI 的藍牙裝置名稱
-
+ * 到 windows 的藍芽管理畫面新增藍芽裝置→找到剛才填的裝置名稱→配對，如下圖
+ ![圖片](https://github.com/user-attachments/assets/f86e7290-e776-40c1-b8db-b1eded69311c)
  * 到專案資料夾下跑 ```npm install``` 將所需的其他 node.js 套件下載下來
  * ```/src/helloworld.js``` 有附一份可以跑起來的 code，它會示範幫你把第一個相框的圖換掉，換成 ```/img/sample.png``` 的內容
 
